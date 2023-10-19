@@ -31,7 +31,15 @@ document.write('Año: '+anioActual + '<br>');
 document.write('Año: '+anioActual);
 
 // ventanas emergentes
-alert('Esto es una prueba de alerta');
+//alert('Esto es una prueba de alerta');
 
 let color = prompt('Ingrese un color');
 console.log(color);
+
+//solicitar al usuario un numero y sumarle 15 
+let numeroSeleccionado = parseInt(prompt('Ingrese un numero del 1 al 100'));
+console.log(numeroSeleccionado);
+console.log(numeroSeleccionado + 15);
+
+// parseInt ('10') devuelve 10   -> si la consola arroja NaN (Not a number) es porque no se ingreso un numero
+// parseFloat ('10,5') devuelve 10,5
