@@ -8,7 +8,12 @@
 */
 
 let renglon = 1;
-document.write(<p></p>)
+
+while(renglon <= 10){
+    document.write(`<p>Renglon numero 1</p>`);
+    renglon = renglon + 1;
+}
+
 
 //do while
 //for
